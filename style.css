@@ -12,6 +12,11 @@
   }
 }
 
+@media (min-width) {
+  img {
+    width: 300px;
+  }
+}
 .old-pink {
   color: var(--first-color) !important;
 }
@@ -89,7 +94,6 @@ div .content {
 }
 a {
   color: var (--first-color);
-  padding: 20px;
 }
 
 #contact {
