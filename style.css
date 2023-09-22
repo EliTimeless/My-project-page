@@ -1,9 +1,9 @@
 :root {
-  --first-color: #a46c7e;
+  --first-color: #d86cdf;
   --second-color: #8a707b;
-  --third-color: #e2eed4;
+  --third-color: #9fd9ac;
   --shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --gradient-color: linear-gradient(75deg, #f0e8ea 20%, #e2eed4 60%);
+  --gradient-color: linear-gradient(75deg, #fceef9 20%, #d4eed5 60%);
 }
 
 @media (max-width: 600px) {
@@ -25,7 +25,7 @@
 }
 body {
   color: black;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 .navbar {
@@ -46,13 +46,13 @@ h1 {
 }
 h2 {
   text-align: center;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 h3 {
   text-align: center;
-  font-size: 24px;
-  opacity: 0.6;
+  margin: 20px auto;
+  padding: 20px 20px;
 }
 
 .button-first {
@@ -107,7 +107,7 @@ a {
 .mailto {
   font-style: italic;
   font-weight: bold;
-  color: #444b3d !important;
+  color: #03891e !important;
 }
 
 .mailto:hover {
@@ -118,8 +118,16 @@ a {
   transform: scale(1.1);
 }
 
+.svg {
+  border-radius: 30px;
+}
+
+.nav-link {
+  color: #d713e5 !important;
+  font-weight: 500;
+}
 .nav-link:hover {
-  color: black !important;
+  color: rgb(40, 40, 40) !important;
 }
 
 .icon-links {
@@ -128,6 +136,6 @@ a {
   font-size: 30px;
 }
 i {
-  margin: 10px;
-  color: black;
+  margin: 30px;
+  color: black !important;
 }
