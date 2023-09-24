@@ -66,17 +66,33 @@
             </li>
           </ul>
         </div>
-        <button onclick="myFunction()" class="toggle-button btn btn-black">
-          <i class="fa-solid fa-moon"></i>
-        </button>
       </div>
     </nav>
+    <button onclick="myFunction()" class="toggle-button btn btn-black">
+      <i class="fa-solid fa-moon"></i>
+    </button>
     <br />
     <div class="container-sm">
-      <h1 class="mt-3">About me</h1>
-      <h3>Junior Front-end developer from south of Bohemia 🇨🇿</h3>
-      <div class="bio project-box mb-3 text-left">
-        <div class="content">
+      <header>
+        <div class="row mt-4 mb-3">
+          <div class="col-sm-6">
+            <img
+              src="img/eliska-foto.jpeg"
+              alt="eli-photo"
+              width="400px"
+              title="Eliska Necasova"
+              class="img img-fluid rounded"
+            />
+          </div>
+          <div class="col-sm-6">
+            <h1>About me</h1>
+            <h3>Junior Front-end developer from south of Bohemia 🇨🇿</h3>
+          </div>
+        </div>
+      </header>
+
+      <div class="about-content mb-3 text-left">
+        <div class="content-inner">
           Hello! I'm Eliška, a passionate junior frontend developer with a
           unique blend of artistic creativity and coding skills. My journey
           began with a background in art education, where I cultivated an eye
@@ -120,7 +136,7 @@
               src="img/singins-lesson-img.png"
               alt="signing-lessons"
               width="300px"
-              class="img-fluid rounded shadow-lg p-2"
+              class="img img-fluid rounded shadow-lg p-2"
               title="Singing lessons"
           /></a>
         </div>
@@ -134,32 +150,38 @@
               src="img/weather-app-img.png"
               alt="weather-app"
               width="300px"
-              class="img-fluid rounded shadow-lg p-2"
+              class="img img-fluid rounded shadow-lg p-2"
               title="weather-app"
           /></a>
         </div>
       </div>
-      <p id="contact" class="old-pink mt-5 text-center">
+      <p id="contact" class="contact mt-5 text-center">
         📝 Contact me here:
         <a href="mailto:elisqa.s@gmail.com" class="mailto text-decoration-none">
           elisqa.s@gmail.com</a
         >
       </p>
-      <footer class="icon-links">
-        <a href="mailto:elisqa.s@gmail.com" title="email address"
-          ><i class="fa-regular fa-envelope"></i
-        ></a>
-        <a href="https://github.com/dashboard" target="_blank" title="github"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/eli%C5%A1ka-ne%C4%8Dasov%C3%A1-a08483270/"
-          target="_blank"
-          title="linkedin"
-          ><i class="fa-brands fa-linkedin-in"></i
-        ></a>
-      </footer>
     </div>
+    <footer class="icon-links">
+      <a href="mailto:elisqa.s@gmail.com" title="email address" class="fa"
+        ><i class="fa-regular fa-envelope"></i
+      ></a>
+      <a
+        href="https://github.com/dashboard"
+        target="_blank"
+        title="github"
+        class="fa"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/eli%C5%A1ka-ne%C4%8Dasov%C3%A1-a08483270/"
+        target="_blank"
+        title="linkedin"
+        class="fa"
+        ><i class="fa-brands fa-linkedin-in"></i
+      ></a>
+    </footer>
+    <div class="coded">Coded by Eliška Nečasová 2023</div>
     <script src="script.js"></script>
   </body>
 </html>
