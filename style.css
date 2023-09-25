@@ -20,7 +20,7 @@ body {
   margin-bottom: 50px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   img .img {
     width: 200px;
     text-align: center;
@@ -34,29 +34,46 @@ body {
 }
 
 .svg {
-  max-width: 150px;
+  max-width: 100px;
   margin: 5px 10px;
   border-radius: 30px;
 }
 
-.nav-link {
-  color: #d713e5 !important;
+nav {
+  border-radius: 0 0 20px 20px;
+  background-color: #b2f6c1;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  margin-right: 30px;
+  padding: 10px 10px;
+  color: black;
   font-weight: 500;
-  font-size: 60px;
+  text-decoration: none !important;
 }
 
-.nav-link:hover {
-  color: rgb(40, 40, 40) !important;
-}
-
-.navbar {
-  background: var(--third-color) !important;
+nav a:hover,
+nav li.active a {
+  color: #d713e5;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
 }
 
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  max-width: 300%;
 }
 
 .toggle-button {
