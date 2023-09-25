@@ -78,6 +78,7 @@ h3 {
   text-align: center;
   margin: 10px auto;
   padding: 10px 10px;
+  text-shadow: var(--shadow);
 }
 
 .button-first {
@@ -95,11 +96,14 @@ h3 {
 
 .img {
   margin: 10px 10px;
-  width: 200px;
   padding: 10px;
   border: solid 5px #b0deba;
   border-radius: 50%;
   box-shadow: 10px 10px 10px grey;
+}
+
+.img-project {
+  width: 500px;
 }
 
 .about-content {
@@ -186,4 +190,5 @@ i {
 
 .work-head {
   font-size: 60px;
+  margin-bottom: 100px;
 }
