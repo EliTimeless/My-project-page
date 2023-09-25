@@ -60,6 +60,9 @@
               <a class="nav-link active" href="about.html">About</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link text-secondary" href="work.html">My work</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link text-secondary" href="about.html#contact"
                 >Contact</a
               >
@@ -68,30 +71,24 @@
         </div>
       </div>
     </nav>
-    <button onclick="myFunction()" class="toggle-button btn btn-black">
+    <button onclick="myFunction()" class="toggle-button btn">
       <i class="fa-solid fa-moon"></i>
     </button>
     <br />
-    <div class="container-sm">
-      <header>
-        <div class="row mt-4 mb-3">
-          <div class="col-sm-6">
-            <img
-              src="img/eliska-foto.jpeg"
-              alt="eli-photo"
-              width="400px"
-              title="Eliska Necasova"
-              class="img img-fluid rounded"
-            />
-          </div>
-          <div class="col-sm-6">
-            <h1>About me</h1>
-            <h3>Junior Front-end developer from south of Bohemia 🇨🇿</h3>
-          </div>
+    <div class="container-fluid">
+      <div class="row about-content">
+        <div class="col-sm-6 column-1">
+          <img
+            src="img/Eliška-Nečas.jpeg"
+            alt="eli-photo"
+            width="400px"
+            title="Eliska Necasova"
+            class="img img-fluid"
+          />
         </div>
-      </header>
-
-      <div class="about-content mb-3 text-left">
+        <div class="col-sm-6 column-2"><h1>Eliška Nečasová</h1></div>
+        <h2 class="m-3">About me</h2>
+        <h3>Junior Front-end developer from south of Bohemia 🇨🇿</h3>
         <div class="content-inner">
           Hello! I'm Eliška, a passionate junior frontend developer with a
           unique blend of artistic creativity and coding skills. My journey
@@ -119,49 +116,96 @@
           seeking inspiration from both the digital and traditional realms. I'm
           excited to continue my journey as a frontend developer, bringing a
           touch of artistry to the ever-evolving web landscape.
-          <hr />
+          <!--<hr />
           Thank you for visiting my portfolio, and feel free to connect with me
           to discuss potential collaborations or simply to share your thoughts
-          on the exciting fusion of art and code.
+          on the exciting fusion of art and code.-->
         </div>
       </div>
-      <div class="row d-flex">
-        <div class="col-sm-6 png text-center">
-          <a
-            href="https://poetic-blancmange-0a7fbf.netlify.app/"
-            target="_blank"
-            title="Launch signing lessons"
-          >
-            <img
-              src="img/singins-lesson-img.png"
-              alt="signing-lessons"
-              width="300px"
-              class="img img-fluid rounded shadow-lg p-2"
-              title="Singing lessons"
-          /></a>
-        </div>
-        <div class="col-sm-6 png text-center">
-          <a
-            href="https://shining-unicorn-weather-app.netlify.app/"
-            target="_blank"
-            title="Launch weather app"
-          >
-            <img
-              src="img/weather-app-img.png"
-              alt="weather-app"
-              width="300px"
-              class="img img-fluid rounded shadow-lg p-2"
-              title="weather-app"
-          /></a>
+      <div class="row">
+        <div class="m-2">
+          <h3 class="about-sign">Work experience</h3>
+          <p>
+            Just for now I have experience only from the SheCodes workshops and
+            projects I did. But I'm open to new challenges every day.
+          </p>
         </div>
       </div>
-      <p id="contact" class="contact mt-5 text-center">
-        📝 Contact me here:
-        <a href="mailto:elisqa.s@gmail.com" class="mailto text-decoration-none">
-          elisqa.s@gmail.com</a
-        >
-      </p>
+      <div class="mb-2">
+        <h3 class="d-flex text-start about-sign">Education</h3>
+        <ul>
+          <li><strong>2004-2008</strong> Pedagogical secondary school</li>
+          <li><strong>2008-2014</strong> Prague conservatory</li>
+        </ul>
+      </div>
+      <div class="mb-2">
+        <h3 class="d-flex text-start about-sign">Certification</h3>
+        <ul>
+          <li><strong>april 2023</strong> SheCodes Basic</li>
+          <li><strong>july 2023</strong> SheCodes Plus</li>
+          <li><strong>september 2023</strong> SheCodes Responsive</li>
+        </ul>
+      </div>
+      <div class="mb-2">
+        <h3 class="d-flex text-start about-sign">Skills</h3>
+        <ul>
+          <li>Languages</li>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+          </ul>
+          <br />
+          <li>Github</li>
+          <br />
+          <li>Libraries</li>
+          <br />
+          <li>Frameworks</li>
+          <br />
+          <li>Testing</li>
+        </ul>
+      </div>
     </div>
+    <hr />
+    <div class="row d-flex">
+      <div class="col-sm-6 png text-center">
+        <a
+          href="https://poetic-blancmange-0a7fbf.netlify.app/"
+          target="_blank"
+          title="Launch signing lessons"
+        >
+          <img
+            src="img/singins-lesson-img.png"
+            alt="signing-lessons"
+            width="300px"
+            class="img img-fluid rounded shadow-lg p-2"
+            title="Singing lessons"
+        /></a>
+      </div>
+      <div class="col-sm-6 png text-center">
+        <a
+          href="https://shining-unicorn-weather-app.netlify.app/"
+          target="_blank"
+          title="Launch weather app"
+        >
+          <img
+            src="img/weather-app-img.png"
+            alt="weather-app"
+            width="300px"
+            class="img img-fluid rounded shadow-lg p-2"
+            title="weather-app"
+        /></a>
+      </div>
+    </div>
+    <p id="contact" class="contact mt-5 text-center">
+      📝 Contact me here:
+      <a href="mailto:elisqa.s@gmail.com" class="mailto text-decoration-none">
+        elisqa.s@gmail.com</a
+      >
+    </p>
+
     <footer class="icon-links">
       <a href="mailto:elisqa.s@gmail.com" title="email address" class="fa"
         ><i class="fa-regular fa-envelope"></i
