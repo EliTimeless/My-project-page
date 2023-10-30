@@ -28,48 +28,67 @@
       src="https://kit.fontawesome.com/02b9b35ab8.js"
       crossorigin="anonymous"
     ></script>
-
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container sticky">
       <nav class="d-flex justify-content-between">
-        <a href="/"> <img src="img/EN.svg" alt="EN" class="svg" /></a>
+        <a href="/">
+          <img
+            src="img/EN.svg"
+            alt="EN"
+            class="svg logo d-flex d-none d-md-flex"
+        /></a>
         <ul>
-          <li class="active"><a href="/index.html">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active">
+            <a href="/index.html" title="homepage" class="head-link">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Eliska" class="head-link"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="/work.html" title="Work of Eliska" class="head-link"
+              >Work</a
+            >
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Eliska" class="head-link"
+              >Contact</a
+            >
+          </li>
         </ul>
       </nav>
     </div>
-
     <button onclick="myFunction()" class="toggle-button btn">
       <i class="fa-solid fa-moon"></i>
     </button>
-    <div class="container-sm">
-      <div class="text-center p-4 lh-sm">
-        <h2 class="fw-bold p-2">👋🏻 Hi I am</h2>
-        <h1 class="fw-bold p-2">Eliška Nečasová</h1>
-        <h3>🇨🇿 Junior Front-end developer, based in Czechia</h3>
-        <div class="d-flex justify-content-center mb-5 mt-5">
-          <a
-            href="contact.html"
-            class="contactLink button-first btn btn-white text-white m-3 p-4 text-decoration-none"
-            title="Contact"
-            >Contact Me</a
-          >
-          <a
-            href="about.html"
-            class="aboutLink button-second btn contact border m-3 p-4"
-            title="About"
-            >About Me</a
-          >
+    <div class="container">
+      <div class="hero">
+        <div class="text-center p-4 lh-sm">
+          <h2 class="fw-bold p-2">👋🏻 Hi I am</h2>
+          <h1 class="fw-bold p-2">Eliška Nečasová</h1>
+          <h3>🇨🇿 Junior Front-end developer, based in Czechia</h3>
+          <div class="d-flex justify-content-center mb-5 mt-5">
+            <a
+              href="contact.html"
+              class="contactLink button-first btn btn-white text-white m-3 p-4 text-decoration-none"
+              title="Contact"
+              >Contact Me</a
+            >
+            <a
+              href="about.html"
+              class="aboutLink button-second btn contact border m-3 p-4"
+              title="About"
+              >About Me</a
+            >
+          </div>
         </div>
       </div>
     </div>
     <div class="row m-2">
-      <div class="col-sm text-center">
+      <div class="col-sm-6 text-center">
         <h2>Weather app</h2>
         <div class="p-3 m-3 fs-5">
           Weather responsive application developed with HTML5, CSS3 and JS
@@ -90,7 +109,7 @@
         >
       </div>
 
-      <div class="col-sm text-center project-box">
+      <div class="col-sm-6 text-center project-box">
         <img
           src="img/weather-app-img.png"
           alt="weather-app"
@@ -103,7 +122,7 @@
     <div class="row m-4 p-4"></div>
 
     <div class="row m-2">
-      <div class="col-sm text-center project-box">
+      <div class="col-sm-6 text-center project-box">
         <img
           src="img/singins-lesson-img.png"
           alt="signing-lessons"
@@ -112,7 +131,7 @@
           title="signing-lessons"
         />
       </div>
-      <div class="col-sm text-center">
+      <div class="col-sm-6 text-center">
         <h2>Singing lessons project</h2>
         <div class="p-3 m-3 fs-5">
           Singing lessons project created with HTML5, CSS3 and little bit of JS
